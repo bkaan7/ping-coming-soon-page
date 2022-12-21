@@ -1,0 +1,200 @@
+/* BOOTSTRAP ICON CDN */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+/* GOOGLE-FONTS CDN */
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 600px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.baslik {
+  color: hsl(0, 0%, 59%);
+  font-weight: 500;
+}
+
+.colorizeIt {
+  color: black;
+  font-weight: 700;
+}
+
+.textOne {
+  margin-bottom: 15px;
+}
+
+.formArea {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  padding: 15px;
+}
+
+#emailAdress {
+  width: 250px;
+  padding-left: 15px;
+  height: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+.btn {
+  background-color: hsl(223, 87%, 63%);
+  color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  border: none;
+  width: 120px;
+  height: 42px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.result {
+  padding-left: 15px;
+  display: block;
+  font-size: 11px;
+  color: hsl(354, 100%, 66%);
+  display: none;
+}
+
+.imageSection > img {
+  width: 400px;
+  margin-top: 50px;
+}
+
+.socialMedia {
+  color: hsl(223, 87%, 63%);
+  width: 600px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.socialPanel {
+  height: 0px;
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  text-decoration: none;
+}
+
+.face:hover {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: blue;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter:hover {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: blue;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.insta:hover {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: blue;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textBox2 {
+  color: hsl(0, 0%, 59%);
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+/* CSS MEDIA QUERIES */
+
+@media screen and (max-width: 637px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 400px;
+    height: auto;
+  }
+
+  .formArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 370px;
+  }
+
+  .btn {
+    width: 280px;
+    margin: 15px;
+  }
+
+  .result {
+    width: 200px;
+  }
+
+  .exar {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 300px;
+  }
+}
